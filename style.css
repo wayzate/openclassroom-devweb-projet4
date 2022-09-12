@@ -18,6 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
+.fontSize22 {
+    font-size: 22px;
+}
+
+.fontWeightBold {
+    font-weight: bold;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -677,7 +685,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +783,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /*color: #F3976C!important;*/
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {

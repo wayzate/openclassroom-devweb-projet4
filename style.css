@@ -828,6 +828,8 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/motif-léo.png");
+    object-fit: cover;
+    width: 100%;
 }
 
 .bg-presentation {

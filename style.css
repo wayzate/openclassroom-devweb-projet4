@@ -26,6 +26,14 @@ a:hover {
     font-weight: bold;
 }
 
+.borderRadius20 {
+    border-radius: 20px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;

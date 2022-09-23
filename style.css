@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -32,6 +36,10 @@ a:hover {
 
 .padding20 {
     padding: 20px;
+}
+
+.paddingBottom10 {
+    padding-bottom: 10px;
 }
 
 #page-loading-blocs-notifaction {
@@ -769,7 +777,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: gray;
     padding: 40px 40px 40px 40px;
 }
 
@@ -787,7 +795,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #772702;
 }
 
 .tc-white {
@@ -796,7 +804,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #772702;
+    /*background: #F3976C;*/
     color: #FFFFFF!important;
 }
 
@@ -814,7 +823,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #772702!important;
 }
 
 .ltc-atomic-tangerine:hover {
